@@ -2,24 +2,43 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    padding-bottom: 28px; 
     box-sizing: border-box;
 }
 
-.container {
-    width: 95%;
-    margin: 0 auto;
-    padding: 30px;
+.header-container{
+    border-bottom: 2px solid #000000; /* Add underline to the header and nav section */
+    padding-bottom: 10px;
 }
 
-.header {
-    text-align: left
-    
+.header{
+    text-align: left; /* Align header text to the left */
+    display: inline-block; /* Keep it inline with the nav */
+    vertical-align: middle; /* Align it vertically in the middle */
 }
-
 
 .nav {
+    display: inline-block; /* Keep it inline with the header */
+    vertical-align: middle; /* Align it vertically in the middle */
+    float: right; /* Move nav to the right */
+}
 
+.nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 20;
+    padding: 20;
+    display: flex; /* Display items in a row */
+    justify-content: flex-end; /* Align items to the right */
+}
+
+.nav ul li {
+    margin-left: 20px; /* Add space between items */
+}
+
+.nav ul a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    display: block;
 }
 
 .hero {
@@ -31,7 +50,7 @@ body {
     font-size: 48px;
 }
 
-.footer {
+.footer{
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -41,7 +60,6 @@ body {
     color: #fff;
     text-align: center;
 }
-
 
 .panel {
     display: inline-block;
@@ -55,3 +73,51 @@ body {
     font-size: 48px;
 }
 
+/* Home Page Panels */
+#home-opening-hours {
+    width: 30%;
+    height: 300px;
+    line-height: 200px;
+}
+
+#home-address {
+    width: 30%;
+    height: 300px;
+    line-height: 200px;
+}
+
+#home-social-media {
+    width: 30%;
+    height: 300px;
+    line-height: 200px;
+}
+
+.home-info {
+    width: 90%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    font-size: 18px; 
+    line-height: 1.6; 
+}
+
+#about-who-are-we, #about-our-passion {
+    width: 20%;
+    height: 250px;
+    line-height: 150px;
+    margin: 10px 14%;
+    
+}
+
+#box1{
+     padding: 70px 0;
+  border: 3px solid rgb(0, 0, 0);
+  text-align: center;
+}
+
+#about-info {
+    width: 90%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    font-size: 18px; 
+    line-height: 1.6; 
+}
