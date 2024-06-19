@@ -6,32 +6,38 @@ body {
 }
 
 .header-container{
-    border-bottom: 2px solid #000000; /* Add underline to the header and nav section */
+    border-bottom: 2px solid #000000; 
     padding-bottom: 10px;
+    padding-left: 30px;
+    
 }
 
 .header{
-    text-align: left; /* Align header text to the left */
-    display: inline-block; /* Keep it inline with the nav */
-    vertical-align: middle; /* Align it vertically in the middle */
+    text-align: left; 
+    display: inline-block; 
+    vertical-align: middle; 
+    
+    
 }
 
 .nav {
-    display: inline-block; /* Keep it inline with the header */
-    vertical-align: middle; /* Align it vertically in the middle */
-    float: right; /* Move nav to the right */
+    display: inline-block; 
+    vertical-align: middle; 
+    float: right; 
+    
 }
 
 .nav ul {
-    list-style-type: none; /* Remove bullet points */
+    list-style-type: none; 
     margin: 20;
     padding: 20;
-    display: flex; /* Display items in a row */
-    justify-content: flex-end; /* Align items to the right */
+    display: flex; 
+    justify-content: flex-end; 
+    padding-top: 10px;
 }
 
 .nav ul li {
-    margin-left: 20px; /* Add space between items */
+    margin-left: 20px; 
 }
 
 .nav ul a {
@@ -42,12 +48,14 @@ body {
 }
 
 .hero {
-    height: 300px;
-    background-color: #e0e0e0;
+    height: 400px;
+    width: 1024px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 48px;
+    margin: auto;
 }
 
 .footer{
@@ -73,7 +81,7 @@ body {
     font-size: 48px;
 }
 
-/* Home Page Panels */
+
 #home-opening-hours {
     width: 30%;
     height: 300px;
@@ -100,20 +108,6 @@ body {
     line-height: 1.6; 
 }
 
-#about-who-are-we, #about-our-passion {
-    width: 20%;
-    height: 250px;
-    line-height: 150px;
-    margin: 10px 14%;
-    
-}
-
-#box1{
-     padding: 70px 0;
-  border: 3px solid rgb(0, 0, 0);
-  text-align: center;
-}
-
 #about-info {
     width: 90%; 
     margin: 0 auto; 
@@ -121,3 +115,4 @@ body {
     font-size: 18px; 
     line-height: 1.6; 
 }
+
